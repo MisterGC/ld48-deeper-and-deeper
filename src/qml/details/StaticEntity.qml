@@ -3,11 +3,12 @@
 import QtQuick 2.12
 import Box2D 2.0
 import Clayground.Physics 1.0
+import Clayground.Svg 1.0
 
-VisualizedBoxBody
+ImageBoxBody
 {
+    property string sourcePath: ""
+    source: assets.visual(sourcePath)
     bodyType: Body.Static
-    color: "#7084aa"
-    categories: Box.Category1
-    collidesWith: Box.Category2 | Box.Category3
+    active: false
 }
