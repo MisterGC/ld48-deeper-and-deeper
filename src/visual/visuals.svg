@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.25767182"
-     inkscape:cx="3412.7587"
-     inkscape:cy="2599.8339"
+     inkscape:cx="3631.0724"
+     inkscape:cy="2831.4466"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -342,7 +342,7 @@
          rx="0.0078424644"
          ry="9.7113934" />
       <rect
-         style="fill:#964a3e;fill-opacity:1;stroke:none;stroke-width:0.744475;stroke-dasharray:1.48895, 0.744475;stroke-dashoffset:7.44475;stop-color:#000000"
+         style="fill:#a34031;fill-opacity:1;stroke:none;stroke-width:0.744475;stroke-dasharray:1.48895, 0.74447500000000000;stroke-dashoffset:7.44475;stop-color:#000000"
          id="rect2666"
          width="177.15732"
          height="177.15732"
@@ -412,7 +412,7 @@
          rx="0.0078424644"
          ry="9.7113934" />
       <rect
-         style="fill:#597532;fill-opacity:1;stroke:none;stroke-width:0.744475;stroke-dasharray:1.48895, 0.744475;stroke-dashoffset:7.44475;stop-color:#000000"
+         style="fill:#658d2e;fill-opacity:1;stroke:none;stroke-width:0.744475;stroke-dasharray:1.48895, 0.74447500000000000;stroke-dashoffset:7.44475;stop-color:#000000"
          id="rect2637"
          width="177.15732"
          height="177.15732"
@@ -474,7 +474,10 @@
          height="722.08643"
          width="493.93973"
          id="rect5449"
-         style="font-variation-settings:normal;vector-effect:none;fill:#96d6d5;fill-opacity:1;stroke:none;stroke-width:3.27441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+         style="font-variation-settings:normal;vector-effect:none;fill:#96d6d5;fill-opacity:1;stroke:none;stroke-width:3.27441;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <rect
          style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:0.657183;stroke:none;stroke-width:3.01367;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
          id="rect3416-7-8"
@@ -483,64 +486,100 @@
          x="-675.21399"
          y="341.23627"
          rx="0.0044129021"
-         ry="5.8345885" />
+         ry="5.8345885"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <rect
-         style="fill:#597532;fill-opacity:1;stroke:none;stroke-width:0.413125;stroke-miterlimit:4;stroke-dasharray:0.82625, 0.413125;stroke-dashoffset:4.13125;stop-color:#000000"
+         style="fill:#658d2e;fill-opacity:1;stroke:none;stroke-width:0.413125;stroke-miterlimit:4;stroke-dasharray:0.82625, 0.41312500000000002;stroke-dashoffset:4.13125;stop-color:#000000"
          id="rect2637-4"
          width="98.308304"
          height="98.308304"
          x="-681.14764"
          y="248.09976"
          ry="18.119061"
-         rx="12.889024" />
+         rx="12.889024"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:#1f2516;fill-opacity:1;stroke:#2f3822;stroke-width:2.74717;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
          d="M -654.05822,312.28141 -640.14973,316.83375 -623.30393,316.83372 -605.31663,311.61589 -616.45092,328.21188 -625.4551,332.16226 -639.87438,333.17815 -650.4229,323.84945 Z"
          id="path2891-5"
-         sodipodi:nodetypes="ccccccccc" />
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:#d7d3ce;fill-opacity:1;stroke:#2f3822;stroke-width:2.63957;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
          d="M -599.42901,278.58514 -600.0837,284.39982 -604.43647,288.96324 -610.98005,290.96172 -615.12186,290.07629 -620.85478,285.26628 -622.48557,280.02429 -621.57747,276.11282 -609.62072,274.79227 Z"
-         id="path2981-2" />
+         id="path2981-2"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <circle
          style="font-variation-settings:normal;vector-effect:none;fill:#2f3822;fill-opacity:1;stroke:none;stroke-width:9.82688;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
          id="circle2983-5"
          cx="612.21606"
          cy="280.76669"
          r="4.2506671"
-         transform="scale(-1,1)" />
+         transform="scale(-1,1)"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#2f3822;stroke-width:4.32795;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
          d="M -599.01855,272.13004 -617.02168,268.05083"
-         id="path2991-4" />
+         id="path2991-4"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:#d7d3ce;fill-opacity:1;stroke:#2f3822;stroke-width:2.63957;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
          d="M -661.24345,280.16627 -660.58869,285.98095 -656.23612,290.54435 -649.6925,292.54285 -645.55063,291.65742 -639.81765,286.84741 -638.18682,281.60545 -639.09503,277.69395 -651.05173,276.37338 Z"
-         id="path3021-7" />
+         id="path3021-7"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <circle
          style="font-variation-settings:normal;vector-effect:none;fill:#2f3822;fill-opacity:1;stroke:none;stroke-width:9.82688;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
          id="circle3023-4"
          cx="-648.45654"
          cy="282.34793"
-         r="4.2506671" />
+         r="4.2506671"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#2f3822;stroke-width:4.32795;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
          d="M -661.65394,273.71117 -643.65076,269.63197"
-         id="path3025-4" />
+         id="path3025-4"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#2f3822;stroke-width:4.32795;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
          d="M -642.01341,301.32609 C -639.60616,298.10127 -637.09358,297.09155 -634.33891,301.17228"
          id="path3044-3"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#2f3822;stroke-width:4.32795;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
          d="M -628.13088,300.8195 C -625.72363,297.59466 -623.21104,296.58495 -620.45637,300.66567"
          id="path3063-0"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <g
          id="g3635"
          transform="matrix(1.0205012,0.30849189,-0.30849189,1.0205012,-2833.4415,113.0092)"
-         style="stroke:none;stroke-width:4.7386;stroke-miterlimit:4;stroke-dasharray:none">
+         style="stroke:none;stroke-width:4.7386;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739">
         <path
            id="path4447-1-1-8"
            d="M 2067.4628,-439.94455 2068.6392,-428.26135 2075.3898,-428.13271 2074.5568,-440.23875"
@@ -559,39 +598,63 @@
            style="fill:#a0a7a3;fill-opacity:1;stroke:none;stroke-width:2.62954;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       </g>
       <path
-         style="fill:#597532;fill-opacity:1;stroke:none;stroke-width:0.146417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#658d2e;fill-opacity:1;stroke:none;stroke-width:0.146417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M -622.00148,63.267846 -593.08403,58.103046 -603.44366,7.8456063 -584.01677,25.177756 -564.98678,21.103536 -553.0384,-5.9501937 -553.32018,59.576246 -526.0074,59.245356 -525.26749,-46.859925 -562.55864,-45.070065 -582.30149,-18.353254 -612.08824,-43.286035 -642.90007,-36.011875 Z"
-         id="path3065" />
+         id="path3065"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
-         style="fill:#597532;fill-opacity:1;stroke:none;stroke-width:0.146417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#658d2e;fill-opacity:1;stroke:none;stroke-width:0.146417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M -491.48341,93.835916 -428.96836,7.4887263 -461.21022,0.00475626 -472.74282,34.783866 -490.18072,-7.3992737 -509.26834,7.5012663 -490.90117,48.664426 -508.39796,90.706336 Z"
-         id="path3067" />
+         id="path3067"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
-         style="fill:#964a3e;fill-opacity:1;stroke:none;stroke-width:0.212634px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#a34031;fill-opacity:1;stroke:none;stroke-width:0.212634px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M -655.6536,95.386024 -687.86732,87.690494 -724.07248,128.90518 -711.55039,181.5534 -663.34599,186.56244 -646.27913,147.23834 -683.47866,136.08521 -687.93403,154.17295 -672.78615,160.55683 -677.93061,170.26143 -695.615,162.83512 -705.12468,134.57078 -676.21995,106.37406 -656.8369,113.41375 Z"
          id="path3069"
-         sodipodi:nodetypes="ccccccccccccccc" />
+         sodipodi:nodetypes="ccccccccccccccc"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
-         style="fill:#964a3e;fill-opacity:1;stroke:none;stroke-width:0.212634px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#a34031;fill-opacity:1;stroke:none;stroke-width:0.212634px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M -633.26466,180.07934 C -632.673,175.28362 -629.43889,137.33013 -629.43889,137.33013 L -591.87383,142.20425 -591.29029,131.22534 -562.4126,132.18475 -587.45966,197.81045 -602.9451,189.76483 -595.69124,180.03552 Z"
-         id="path3071" />
+         id="path3071"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
          style="fill:#96d6d5;fill-opacity:1;stroke:none;stroke-width:0.212634px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M -615.09885,162.45877 -614.86781,148.53868 -593.14043,151.45678 -597.8167,167.87508 Z"
-         id="path3073" />
+         id="path3073"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
-         style="fill:#964a3e;fill-opacity:1;stroke:none;stroke-width:0.212634px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#a34031;fill-opacity:1;stroke:none;stroke-width:0.212634px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M -546.28689,194.35777 -549.63465,136.43712 -527.54926,136.853 -528.13276,150.33775 -509.44097,138.02643 -485.37173,136.84603 -485.37171,160.24484 -471.49824,138.9656 -433.6054,137.71063 -444.37594,204.02327 -461.66481,196.94264 -458.16563,162.16021 -477.30247,170.75398 -478.37009,197.54755 -500.72587,193.81037 -504.54642,160.43914 -525.21134,161.69958 -528.81957,195.91174 -544.02568,195.91172 Z"
-         id="path3075" />
+         id="path3075"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
-         style="fill:#964a3e;fill-opacity:1;stroke:none;stroke-width:0.212634px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#a34031;fill-opacity:1;stroke:none;stroke-width:0.212634px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M -389.68102,209.07646 -420.02401,189.59743 -411.06444,136.12179 -358.31958,128.24457 -347.92109,162.21273 -385.73382,169.94256 -396.63248,184.0626 -367.21146,193.88175 -375.43028,210.71156 Z"
          id="path3077"
-         sodipodi:nodetypes="cccccccccc" />
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <path
          style="fill:#96d6d5;fill-opacity:1;stroke:none;stroke-width:0.212634px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M -394.13465,157.68889 -394.13471,148.133 -368.71536,142.1078 -371.0494,154.87635 Z"
-         id="path3079" />
+         id="path3079"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <rect
          style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:0.657183;stroke:none;stroke-width:3.07105;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
          id="rect3416-7"
@@ -600,12 +663,18 @@
          x="-504.16797"
          y="344.5589"
          rx="0.0045825331"
-         ry="5.8345885" />
+         ry="5.8345885"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739" />
       <g
          id="g3414"
-         transform="matrix(1.1624092,0,0,1.1624092,210.07914,375.94979)">
+         transform="matrix(1.1624092,0,0,1.1624092,210.07914,375.94979)"
+         inkscape:export-filename="/home/mistergc/dev/clayground-game-template/doc/promo_screen1.png"
+         inkscape:export-xdpi="41.155739"
+         inkscape:export-ydpi="41.155739">
         <rect
-           style="fill:#964a3e;fill-opacity:1;stroke:none;stroke-width:0.38411;stroke-dasharray:0.768219, 0.38411;stroke-dashoffset:3.8411;stop-color:#000000"
+           style="fill:#a34031;fill-opacity:1;stroke:none;stroke-width:0.38411;stroke-dasharray:0.768219, 0.38411000000000001;stroke-dashoffset:3.8411;stop-color:#000000"
            id="rect2666-3"
            width="91.403786"
            height="91.403786"
@@ -690,9 +759,9 @@
     <g
        id="floor_tile"
        transform="translate(-193.48688,19.800835)"
-       style="fill:#b7b1b0;fill-opacity:1">
+       style="fill:#cfada7;fill-opacity:1">
       <rect
-         style="fill:#847a78;fill-opacity:1;stroke:none;stroke-width:0.507662;stroke-dasharray:1.01532, 0.50766199999999995;stroke-dashoffset:5.07663;stop-color:#000000"
+         style="fill:#cfada7;fill-opacity:1;stroke:none;stroke-width:0.507662;stroke-dasharray:1.01532, 0.50766199999999995;stroke-dashoffset:5.07663;stop-color:#000000"
          id="rect5189"
          width="120.80477"
          height="120.80477"
