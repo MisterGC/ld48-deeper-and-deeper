@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="125.30234"
-     inkscape:cy="298.76021"
+     inkscape:zoom="2.8"
+     inkscape:cx="282.57909"
+     inkscape:cy="1094.2181"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -164,10 +164,10 @@
     <rect
        y="154.18343"
        x="122.19073"
-       height="4.33498"
-       width="4.1666546"
+       height="2.3987639"
+       width="2.3056209"
        id="rect1824"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
          id="desc1822">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
@@ -360,6 +360,136 @@
        y="0.49661466">
       <desc
          id="desc2962">{&quot;component&quot;:&quot;Wall&quot;}</desc>
+    </rect>
+    <rect
+       y="133.17116"
+       x="79.450615"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-4"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-6">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="116.16222"
+       x="141.72218"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-2"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-67">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="199.03351"
+       x="145.97443"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-5"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-69">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="196.95464"
+       x="58.661922"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-8"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="262.7225"
+       x="51.007904"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-28"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="268.77011"
+       x="167.23558"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-9"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-9">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="91.499275"
+       x="25.022041"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="50.866837"
+       x="113.65746"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-27"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-61">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="27.243326"
+       x="38.345703"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-3"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-21">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="268.95911"
+       x="126.98112"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-59"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-91">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="305.33929"
+       x="145.02948"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-49"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="240.32741"
+       x="77.56073"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-0"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-75">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="311.57593"
+       x="38.912666"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-87"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-04">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
   </g>
 </svg>
