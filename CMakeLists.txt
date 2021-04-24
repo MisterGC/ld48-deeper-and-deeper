@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 3.5.0 FATAL_ERROR)
-project (MyGame VERSION 2021.1)
+project (Astromoles VERSION 2021.1)
 
 # Common dirs for all produced bin artifacts 
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
