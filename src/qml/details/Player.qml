@@ -12,16 +12,22 @@ LivingEntity
 
     property var enemy: null
     Component.onCompleted: {
-        body.addFixture(areaOfDamage.createObject(player,{}));
+        body.addFixture(rangeOfExtractionComp.createObject(player,{}));
         ClayPhysics.connectOnEntered(fixtures[0], _onCollision)
-        ClayPhysics.connectOnEntered(fixtures[1], _onAsteroidSpotted)
-        ClayPhysics.connectOnLeft(fixtures[1], _onAsteroidLost)
+        asteroidsWithinRange.fixture = fixtures[1];
     }
-    function _onCollision(entity) { if (entity instanceof Asteroid) health--;}
-    function _onAsteroidSpotted(entity) {if (entity instanceof Asteroid) enemy = entity;}
-    function _onAsteroidLost(entity) {if (entity instanceof Asteroid) enemy = null;}
 
-    maxHealth: 8
+    CollisionTracker{id: asteroidsWithinRange }
+    Connections{
+        target: theGameCtrl
+        function onButtonAPressedChanged(){
+            for (let e of asteroidsWithinRange.entities){
+                if (e instanceof Asteroid) e.energy--;
+            }
+        }
+    }
+
+    function _onCollision(entity) { if (entity instanceof Asteroid) energy--;}
 
     maxEnergy: 5
     spriteWidthWu: spriteHeightWu
@@ -47,7 +53,7 @@ LivingEntity
     onEnergyChanged: {if(energy < maxEnergy) console.log("Ouch!")}
 
     Component {
-        id: areaOfDamage
+        id: rangeOfExtractionComp
         Box {
             x: -player.width
             y: -player.height
@@ -64,6 +70,5 @@ LivingEntity
         width: parent.width * 3; height: width
         radius: width * .5; opacity: .5; color: "orange"
         visible: theGameCtrl.buttonAPressed
-        onVisibleChanged: if (enemy) enemy.health--;
     }
 }
