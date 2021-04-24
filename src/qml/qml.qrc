@@ -19,6 +19,7 @@
         <file>details/GameButton.qml</file>
         <file>details/GameSound.qml</file>
         <file>details/H2oBar.qml</file>
+        <file>details/Harvesting.qml</file>
         <file>details/IconBar.qml</file>
         <file>details/Moving.qml</file>
         <file>details/Player.qml</file>

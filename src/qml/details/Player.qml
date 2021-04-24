@@ -10,35 +10,16 @@ ResourceHolder
 {
     id: player
 
-    property var enemy: null
-    Component.onCompleted: {
-        body.addFixture(rangeOfExtractionComp.createObject(player,{}));
-        ClayPhysics.connectOnEntered(fixtures[0], _onCollision)
-        asteroidsWithinRange.fixture = fixtures[1];
-    }
-
-    CollisionTracker{id: asteroidsWithinRange }
-    Connections{
-        target: theGameCtrl
-        function onButtonAPressedChanged(){
-            for (let e of asteroidsWithinRange.entities){
-                if (e instanceof Asteroid) e.energy--;
-            }
-        }
-    }
-
-    Moving{actor: player; running: Math.abs(player.linearVelocity.x) > 0  ||
-                                   Math.abs(player.linearVelocity.y) > 0
-    }
-
-    function _onCollision(entity) { if (entity instanceof Asteroid) energy--;}
-
     maxEnergy: 5
     spriteWidthWu: spriteHeightWu
 
+    // PHYSICS
     categories: collCat.player
     collidesWith: collCat.staticGeo | collCat.enemy
+    Component.onCompleted: ClayPhysics.connectOnEntered(fixtures[0], _onCollision)
+    function _onCollision(entity) {if (entity instanceof Asteroid) energy--;}
 
+    // VISUALS
     visu.sprites: [
         Sprite {
             name: "player";
@@ -48,6 +29,19 @@ ResourceHolder
         }
     ]
 
+    Rectangle{
+        z: -1; anchors.centerIn: parent;
+        width: parent.width * 3; height: width
+        radius: width * .5; opacity: .5; color: "orange"
+        visible: theGameCtrl.buttonAPressed
+    }
+
+    // BEHAVIOR
+    Moving{actor: player; running: Math.abs(player.linearVelocity.x) > 0  ||
+                                   Math.abs(player.linearVelocity.y) > 0
+    }
+    Harvesting {id: harvesting;  actor: player; running: theGameCtrl.buttonAPressed}
+
     readonly property real veloCompMax: 25
     property real xDirDesire: theGameCtrl.axisX
     linearVelocity.x: xDirDesire * veloCompMax
@@ -56,23 +50,5 @@ ResourceHolder
 
     onEnergyChanged: {if(energy < maxEnergy) console.log("Ouch!")}
 
-    Component {
-        id: rangeOfExtractionComp
-        Box {
-            x: -player.width
-            y: -player.height
-            width: player.width * 3
-            height: player.height * 3
-            sensor: true
-            categories: collCat.player
-            collidesWith: collCat.enemy
-        }
-    }
 
-    Rectangle{
-        z: -1; anchors.centerIn: parent;
-        width: parent.width * 3; height: width
-        radius: width * .5; opacity: .5; color: "orange"
-        visible: theGameCtrl.buttonAPressed
-    }
 }
