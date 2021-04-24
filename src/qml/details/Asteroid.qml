@@ -8,16 +8,16 @@ import Clayground.Svg 1.0
 
 LivingEntity
 {
-    id: enemy
+    id: asteroid
 
     categories: collCat.enemy
     collidesWith: collCat.staticGeo | collCat.player
     bodyType: Body.Dynamic
     maxHealth: 1
-    onHealthChanged: if (health < 0) enemy.destroy()
+    onHealthChanged: if (health < 0) asteroid.destroy()
     visu.sprites: [
         Sprite {
-            name: "enemy";
+            name: "asteroid";
             source: assets.visual(sourceSvg + "/" + name)
             frameCount: 1
             frameRate: 1

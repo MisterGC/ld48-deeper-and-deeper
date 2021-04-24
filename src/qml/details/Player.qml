@@ -14,12 +14,12 @@ LivingEntity
     Component.onCompleted: {
         body.addFixture(areaOfDamage.createObject(player,{}));
         ClayPhysics.connectOnEntered(fixtures[0], _onCollision)
-        ClayPhysics.connectOnEntered(fixtures[1], _onEnemySpotted)
-        ClayPhysics.connectOnLeft(fixtures[1], _onEnemyLost)
+        ClayPhysics.connectOnEntered(fixtures[1], _onAsteroidSpotted)
+        ClayPhysics.connectOnLeft(fixtures[1], _onAsteroidLost)
     }
-    function _onCollision(entity) { if (entity instanceof Enemy) health--;}
-    function _onEnemySpotted(entity) {if (entity instanceof Enemy) enemy = entity;}
-    function _onEnemyLost(entity) {if (entity instanceof Enemy) enemy = null;}
+    function _onCollision(entity) { if (entity instanceof Asteroid) health--;}
+    function _onAsteroidSpotted(entity) {if (entity instanceof Asteroid) enemy = entity;}
+    function _onAsteroidLost(entity) {if (entity instanceof Asteroid) enemy = null;}
 
     maxHealth: 8
     spriteWidthWu: spriteHeightWu

@@ -11,7 +11,7 @@
         <file>main.qml</file>
 
         <file>details/AnimatedEntity.qml</file>
-        <file>details/Enemy.qml</file>
+        <file>details/Asteroid.qml</file>
         <file>details/Finish.qml</file>
         <file>details/Floor.qml</file>
         <file>details/GameButton.qml</file>

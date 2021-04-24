@@ -23,14 +23,14 @@ ClayWorld {
     // SCENE CREATION CFG: Map Entity Types -> Components to be intialized
     components: new Map([
                     ['Player', c1],
-                    ['Enemy', c2],
+                    ['Asteroid', c2],
                     ['Wall', c3],
                     ['Floor', c4],
                     ['Finish', c5],
                     ['StaticEntity', c6]
                 ])
     Component { id: c1; Player {} }
-    Component { id: c2; Enemy {} }
+    Component { id: c2; Asteroid {} }
     Component { id: c3; Wall {} }
     Component { id: c4; Floor {} }
     Component { id: c5; RectTrigger {
