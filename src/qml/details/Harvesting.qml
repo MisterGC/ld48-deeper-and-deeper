@@ -17,7 +17,17 @@ Activity
         interval: 1000; running: parent.running; repeat: true
         onTriggered: {
             for (let e of asteroidsWithinRange.entities){
-                if (e instanceof Asteroid) e.energy--;
+                if (e instanceof Asteroid) {
+                    if (e.energy > 0) {
+                        e.energy--;
+                        if(actor.energy < actor.maxEnergy) actor.energy++;
+                    }
+                    if (e.h2o > 0) {
+                        e.h2o--;
+                        if(actor.h2o < actor.maxH2o) actor.h2o++;
+                    }
+                }
+
             }
         }
     }

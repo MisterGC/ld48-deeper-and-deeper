@@ -10,6 +10,17 @@ Item {
 
     Component.onCompleted: load();
 
+    // MECHANIC
+    readonly property int playerMaxH2o: 3
+    readonly property int playerMaxEnergy: 3
+    readonly property int asteroidMaxH2o: 3
+    readonly property int asteroidMaxEnergy: 3
+    readonly property int movConsumptionPerSec: 1
+    readonly property int h2oConsumptionPerSec: 1
+    readonly property int harvestH2oPerSec: 1
+    readonly property int harvestEnergyPerSec: 1
+
+
     // PROGRESS/SCORE/ACHIEVEMENTS
     property string level: "level"
     property int score: 0
@@ -23,7 +34,9 @@ Item {
     property int fontPixelSize: 10
     property int safeTopMargin: 10
     property int buttonWidth: 100
-    property string screenBgColor: "#96d6d5ff"
+    readonly property string screenBgColor: "#96d6d5ff"
+    readonly property string energyColor: "#70dc4e"
+    readonly property string h2oColor: "#4ecfdc"
 
     // PERSISTENCE
     function load() {gameStorage.load();}
