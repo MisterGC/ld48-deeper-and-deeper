@@ -16,9 +16,10 @@
         <file>details/Floor.qml</file>
         <file>details/GameButton.qml</file>
         <file>details/GameSound.qml</file>
-        <file>details/HealthBar.qml</file>
+        <file>details/EnergyBar.qml</file>
+        <file>details/H2oBar.qml</file>
         <file>details/IconBar.qml</file>
-        <file>details/LivingEntity.qml</file>
+        <file>details/ResourceHolder.qml</file>
         <file>details/Player.qml</file>
         <file>details/SpriteBoxBody.qml</file>
         <file>details/StaticEntity.qml</file>

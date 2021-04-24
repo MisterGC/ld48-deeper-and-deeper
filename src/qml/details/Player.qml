@@ -6,7 +6,7 @@ import Box2D 2.0
 import Clayground.Physics 1.0
 import Clayground.Svg 1.0
 
-LivingEntity
+ResourceHolder
 {
     id: player
 

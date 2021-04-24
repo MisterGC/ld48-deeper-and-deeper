@@ -74,12 +74,13 @@ ClayWorld {
     Keys.forwardTo: theGameCtrl
     GameController { id: theGameCtrl; anchors.fill: parent }
 
-    HealthBar {
-        id: healthBar
-        observed: player
+    Row {
         anchors.top: parent.top
         anchors.topMargin: gameState.safeTopMargin
         anchors.horizontalCenter: parent.horizontalCenter
+        spacing: .5 * height
+        EnergyBar { observed: player }
+        H2oBar { observed: player }
     }
 
     onMapEntityCreated: {

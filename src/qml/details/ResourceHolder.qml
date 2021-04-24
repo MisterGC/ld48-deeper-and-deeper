@@ -7,11 +7,13 @@ import Clayground.Svg 1.0
 
 AnimatedEntity
 {
-    id: theEntity
-
     bodyType: Body.Dynamic
+
     property int maxEnergy: 3
     property int energy: maxEnergy
     property bool isAlive: energy >= 1
-    property bool invulnerable: false
+
+    property int maxH2o: 3
+    property int h2o: maxH2o
+    property bool isHydrated: h2o >= 1
 }
