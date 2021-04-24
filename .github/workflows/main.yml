@@ -29,10 +29,10 @@ jobs:
     - name: Install Qt
       uses: jurplel/install-qt-action@v2
       with:
-        version: '5.14.2'
+        version: '5.15.2'
         host: 'windows'
         target: 'desktop'
-        arch: 'win64_msvc2017_64'
+        arch: 'win64_msvc2019_64'
 
     - name: CMake Configure
       run:  |
@@ -40,7 +40,7 @@ jobs:
         cd %GITHUB_WORKSPACE%\build
         choco install ninja -y
         call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvars64.bat"
-        cmake -DCMAKE_BUILD_TYPE=Release -GNinja -DCMAKE_C_COMPILER=cl -DCMAKE_CXX_COMPILER=cl ../
+        cmake -DCMAKE_BUILD_TYPE=Release -GNinja -DQT_QMAKE_EXECUTABLE=qmake -DCMAKE_C_COMPILER=cl -DCMAKE_CXX_COMPILER=cl ../
       shell: cmd
 
     - name: Build Application
