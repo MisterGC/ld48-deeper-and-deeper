@@ -16,7 +16,7 @@ ResourceHolder
 
     // PHYSICS
     categories: collCat.player
-    collidesWith: collCat.staticGeo | collCat.enemy
+    collidesWith: collCat.staticGeo | collCat.asteroid
     Component.onCompleted: ClayPhysics.connectOnEntered(fixtures[0], _onCollision)
     function _onCollision(entity) {if (entity instanceof Asteroid) energy--;}
     readonly property real veloCompMax: 25

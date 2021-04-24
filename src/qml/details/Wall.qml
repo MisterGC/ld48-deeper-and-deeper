@@ -9,5 +9,5 @@ RectBoxBody
     bodyType: Body.Static
     color: "#504a49"
     categories: collCat.staticGeo
-    collidesWith: collCat.player | collCat.enemy
+    collidesWith: collCat.player | collCat.asteroid
 }

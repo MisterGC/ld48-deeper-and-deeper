@@ -14,7 +14,11 @@ Activity
         asteroidsWithinRange.fixture = fixtures[fixtures.length -1];
     }
 
-    CollisionTracker{id: asteroidsWithinRange}
+    CollisionTracker{
+        id: asteroidsWithinRange
+        onEntered: if (entity instanceof Asteroid) entity.targeted = true;
+        onLeft: if (entity instanceof Asteroid) entity.targeted = false;
+    }
     Component {
         id: rangeOfExtractionComp
         Box {
@@ -24,7 +28,7 @@ Activity
             height: actor.height * 3
             sensor: true
             categories: collCat.player
-            collidesWith: collCat.enemy
+            collidesWith: collCat.asteroid
         }
     }
 

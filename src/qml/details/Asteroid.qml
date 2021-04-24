@@ -10,9 +10,20 @@ ResourceHolder
 {
     id: asteroid
 
-    categories: collCat.enemy
-    collidesWith: collCat.staticGeo | collCat.player
+    categories: collCat.asteroid
+    collidesWith: collCat.staticGeo | collCat.player | collCat.asteroid
     bodyType: Body.Dynamic
+    density: 6
+    restitution: .1
+
+    Component.onCompleted: _letFlow.start()
+    Timer{
+        id: _letFlow; interval: 1000;
+        onTriggered: {
+            linearVelocity.x= Math.random() * 1 * (Math.random() > .5 ? 1 : -1);
+            linearVelocity.y= Math.random() * 1 * (Math.random() > .5 ? 1 : -1);
+        }
+    }
 
     function initialResources(max){
         return Math.round(1 + Math.random() * (max-1));
@@ -47,5 +58,16 @@ ResourceHolder
         }
 
     }
+
+    property bool targeted: false
+    Rectangle{
+        z: -1; anchors.centerIn: parent;
+        width: parent.width * 3; height: width
+        radius: width * .5; color: "transparent"
+        border.color: "red"; border.width: width * .1
+        opacity: parent.targeted ? .5 : 0
+        Behavior on opacity {NumberAnimation{duration: 250;}}
+    }
+
 
 }

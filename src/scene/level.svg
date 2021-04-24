@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="31.188476"
-     inkscape:cy="670.41687"
+     inkscape:cx="125.30234"
+     inkscape:cy="298.76021"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -154,10 +154,10 @@
     <rect
        y="0.20083618"
        x="3.7048347"
-       height="13.704021"
+       height="19.059004"
        width="196.31062"
        id="rect5922-7-6-0-1-7"
-       style="fill:#fbfcdd;fill-opacity:1;stroke:none;stroke-width:1.76372;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       style="fill:#fbfcdd;fill-opacity:1;stroke:none;stroke-width:2.07996;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
          id="desc5920-1-1-9-7-1">{&quot;component&quot;:&quot;Finish&quot;}</desc>
     </rect>
@@ -350,6 +350,16 @@
        style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
          id="desc1826-10">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       style="opacity:1;fill:#504a49;fill-opacity:1;stroke:none;stroke-width:1.04172;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2964"
+       width="203.35625"
+       height="3.6804476"
+       x="0.094300881"
+       y="0.49661466">
+      <desc
+         id="desc2962">{&quot;component&quot;:&quot;Wall&quot;}</desc>
     </rect>
   </g>
 </svg>
