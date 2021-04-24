@@ -17,15 +17,17 @@ Row {
         model: maxValue
         Item {
             height: iconBar.height
-            width: height
+            width: _avail.width
             Image {
                 id: _avail
-                anchors.fill: parent
+                fillMode: Image.PreserveAspectFit
+                height: parent.height
                 source: assets.visual(iconBar.setSource)
                 visible: index < value
             }
             Image {
-                anchors.fill: parent
+                fillMode: Image.PreserveAspectFit
+                height: parent.height
                 source: assets.visual(iconBar.unsetSource)
                 visible: !_avail.visible
             }
