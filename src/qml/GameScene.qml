@@ -84,7 +84,6 @@ ClayWorld {
     }
 
     onMapEntityCreated: {
-        console.log("Created " + obj);
         if (obj instanceof Player) {
             gameScene.player = obj;
             obj.z = 500;
