@@ -17,7 +17,7 @@ ClayWorld {
     Component.onCompleted: map = assets.scene(gameState.level)
 
     // RENDER SETTINGS
-    pixelPerUnit: width / gameScene.worldXMax
+    pixelPerUnit: width / (.3 * gameScene.worldXMax)
 
 
     // SCENE CREATION CFG: Map Entity Types -> Components to be intialized
