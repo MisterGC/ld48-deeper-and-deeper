@@ -10,17 +10,19 @@
         <file>TitleScreen.qml</file>
         <file>main.qml</file>
 
+        <file>details/Activity.qml</file>
         <file>details/AnimatedEntity.qml</file>
         <file>details/Asteroid.qml</file>
+        <file>details/EnergyBar.qml</file>
         <file>details/Finish.qml</file>
         <file>details/Floor.qml</file>
         <file>details/GameButton.qml</file>
         <file>details/GameSound.qml</file>
-        <file>details/EnergyBar.qml</file>
         <file>details/H2oBar.qml</file>
         <file>details/IconBar.qml</file>
-        <file>details/ResourceHolder.qml</file>
+        <file>details/Moving.qml</file>
         <file>details/Player.qml</file>
+        <file>details/ResourceHolder.qml</file>
         <file>details/SpriteBoxBody.qml</file>
         <file>details/StaticEntity.qml</file>
         <file>details/Wall.qml</file>

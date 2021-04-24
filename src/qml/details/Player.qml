@@ -27,6 +27,10 @@ ResourceHolder
         }
     }
 
+    Moving{actor: player; running: Math.abs(player.linearVelocity.x) > 0  ||
+                                   Math.abs(player.linearVelocity.y) > 0
+    }
+
     function _onCollision(entity) { if (entity instanceof Asteroid) energy--;}
 
     maxEnergy: 5
