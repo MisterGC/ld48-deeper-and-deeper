@@ -4,8 +4,6 @@ import QtQuick 2.12
 
 Activity
 {
-    Timer {
-        interval: 2000; repeat: true; running: parent.running
-        onTriggered: if(actor.h2o > 0) actor.h2o--;
-    }
+    onSecondPassedBy: actor.h2o -= (actor.h2o > gameState.supplyH2oPerSec ?
+                                    gameState.supplyH2oPerSec : actor.h2o);
 }

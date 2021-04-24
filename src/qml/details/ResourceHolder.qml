@@ -9,11 +9,11 @@ AnimatedEntity
 {
     bodyType: Body.Dynamic
 
-    property int maxEnergy: 3
-    property int energy: maxEnergy
+    property real maxEnergy: 3
+    property real energy: maxEnergy
     property bool isAlive: energy >= 1
 
-    property int maxH2o: 3
-    property int h2o: maxH2o
+    property real maxH2o: 3
+    property real h2o: maxH2o
     property bool isHydrated: h2o >= 1
 }

@@ -10,15 +10,19 @@ Item {
 
     Component.onCompleted: load();
 
-    // MECHANIC
-    readonly property int playerMaxH2o: 3
-    readonly property int playerMaxEnergy: 3
-    readonly property int asteroidMaxH2o: 3
-    readonly property int asteroidMaxEnergy: 3
-    readonly property int movConsumptionPerSec: 1
-    readonly property int h2oConsumptionPerSec: 1
-    readonly property int harvestH2oPerSec: 1
-    readonly property int harvestEnergyPerSec: 1
+    // MECHANIC (All values at this central location
+    // to fascillitate balancing)
+    // Resource Init
+    readonly property real playerMaxH2o: 3
+    readonly property real playerMaxEnergy: 3
+    readonly property real asteroidMaxH2o: 3
+    readonly property real asteroidMaxEnergy: 3
+    // Resource Costs
+    readonly property real movingEnergyPerSec: .1
+    readonly property real supplyH2oPerSec: .1
+    // Resource Gains
+    readonly property real harvestH2oPerSec: 1
+    readonly property real harvestEnergyPerSec: 1
 
 
     // PROGRESS/SCORE/ACHIEVEMENTS

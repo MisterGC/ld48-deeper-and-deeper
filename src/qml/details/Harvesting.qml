@@ -6,32 +6,15 @@ import Box2D 2.0
 
 Activity
 {
+    readonly property real _h2oPerSec: gameState.harvestH2oPerSec
+    readonly property real _energyPerSec: gameState.harvestEnergyPerSec
+
     Component.onCompleted: {
         actor.body.addFixture(rangeOfExtractionComp.createObject(actor,{}));
         asteroidsWithinRange.fixture = fixtures[fixtures.length -1];
     }
 
     CollisionTracker{id: asteroidsWithinRange}
-
-    Timer {
-        interval: 1000; running: parent.running; repeat: true
-        onTriggered: {
-            for (let e of asteroidsWithinRange.entities){
-                if (e instanceof Asteroid) {
-                    if (e.energy > 0) {
-                        e.energy--;
-                        if(actor.energy < actor.maxEnergy) actor.energy++;
-                    }
-                    if (e.h2o > 0) {
-                        e.h2o--;
-                        if(actor.h2o < actor.maxH2o) actor.h2o++;
-                    }
-                }
-
-            }
-        }
-    }
-
     Component {
         id: rangeOfExtractionComp
         Box {
@@ -44,4 +27,23 @@ Activity
             collidesWith: collCat.enemy
         }
     }
+
+    onSecondPassedBy: {
+        for (let e of asteroidsWithinRange.entities){
+            if (e instanceof Asteroid) {
+
+                let de = e.energy - _energyPerSec > 0 ? _energyPerSec : e.energy;
+                let se = actor.energy + de;
+                e.energy -= de;
+                actor.energy = se > actor.maxEnergy ? actor.maxEnergy : se;
+
+                let dh2o = e.h2o - _h2oPerSec > 0 ? _h2oPerSec : e.h2o;
+                let sh2o = actor.h2o + dh2o;
+                e.h2o -= dh2o;
+                actor.h2o = sh2o > actor.maxH2o ? actor.maxH2o : sh2o;
+            }
+
+        }
+    }
+
 }
