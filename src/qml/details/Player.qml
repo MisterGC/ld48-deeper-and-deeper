@@ -11,6 +11,7 @@ ResourceHolder
     id: player
 
     maxEnergy: 5
+    maxH2o: 10
     spriteWidthWu: spriteHeightWu
 
     // PHYSICS
@@ -40,7 +41,8 @@ ResourceHolder
     Moving{actor: player; running: Math.abs(player.linearVelocity.x) > 0  ||
                                    Math.abs(player.linearVelocity.y) > 0
     }
-    Harvesting {id: harvesting;  actor: player; running: theGameCtrl.buttonAPressed}
+    Harvesting{id: harvesting;  actor: player; running: theGameCtrl.buttonAPressed}
+    SupplyingWithH2o{actor: player; running: player.h2o>0}
 
     readonly property real veloCompMax: 25
     property real xDirDesire: theGameCtrl.axisX

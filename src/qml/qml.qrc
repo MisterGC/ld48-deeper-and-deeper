@@ -24,6 +24,7 @@
         <file>details/Moving.qml</file>
         <file>details/Player.qml</file>
         <file>details/ResourceHolder.qml</file>
+        <file>details/SupplyingWithH2o.qml</file>
         <file>details/SpriteBoxBody.qml</file>
         <file>details/StaticEntity.qml</file>
         <file>details/Wall.qml</file>
