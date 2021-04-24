@@ -59,15 +59,17 @@ ResourceHolder
         id: _engineLight
         z: -1; anchors.centerIn: parent;
         width: parent.width * 1.1; height: width
-        radius: width * .5; opacity: .7; color: gameState.energyColor
-        visible: !_moving.isCool
+        radius: width * .5; opacity: 0; color: gameState.h2oColor
         SequentialAnimation{
-            loops: Animation.Infinite; running: _engineLight.visible
+            loops: Animation.Infinite; running: !_moving.isCool
+            onRunningChanged: if (!running) _fadeOut.start()
             PropertyAnimation { target: _engineLight; property: "opacity"
-                from: 0.5; to: 0.9; easing.type: Easing.OutQuad; duration: 1000; }
+                to: 0.7; easing.type: Easing.OutQuad; duration: 1000; }
             PropertyAnimation { target: _engineLight; property: "opacity"
-                from: 0.9; to: 0.5; easing.type: Easing.OutQuad; duration: 1000;  }
+                to: 0.5; easing.type: Easing.OutQuad; duration: 1000;  }
         }
+        PropertyAnimation {id: _fadeOut; target: _engineLight; property: "opacity"
+            to: 0.0; easing.type: Easing.OutQuad; duration: 500; }
     }
 
     // BEHAVIOR
