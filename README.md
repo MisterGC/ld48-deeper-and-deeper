@@ -1,17 +1,9 @@
-This is a starting point for a simple top-down game using Clayground.
-Write here a short intro of your game. Don't be scared by the artistic
-content of this template - it is just a starting point and created to be fully
-replaced ;)
-
-![title-screen](doc/promo1.png)
-
-# Some more details
-The game is about a guy fighting his way throw a maze.
-
-![in-game](doc/promo2.png)
+This is my entry for Ludum Dare 48 (Theme 'Deeper and deeper'). 
+The game is about two moles exploring space with their ship. 
+They neeed water to survive and keep the power supply up and running. 
+How far will they get, how many planets will they find?
 
 # What about a devlog?
-Describe what you have done how was the process of building the game - prefer using
-images/screenshot over long descriptions.
+After a brainstorming session, a good breakfast and a short walk, I was happy with one idea. 
+![where-no-mole-has-gone-before](doc/idea.jpg)
 
-And of course feel also free to suggest improvements for this template :)
