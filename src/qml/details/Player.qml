@@ -40,6 +40,7 @@ ResourceHolder
     // BEHAVIOR
     Moving{actor: player; running: Math.abs(player.linearVelocity.x) > 0  ||
                                    Math.abs(player.linearVelocity.y) > 0
+        coolDownMs: 500
     }
     Harvesting{id: harvesting;  actor: player; running: theGameCtrl.buttonAPressed}
     SupplyingWithH2o{actor: player; running: player.h2o>0}
