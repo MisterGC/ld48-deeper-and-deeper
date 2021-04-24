@@ -22,6 +22,8 @@ LivingEntity
     function _onAsteroidLost(entity) {if (entity instanceof Asteroid) enemy = null;}
 
     maxHealth: 8
+
+    maxEnergy: 5
     spriteWidthWu: spriteHeightWu
 
     categories: collCat.player
@@ -42,7 +44,7 @@ LivingEntity
     property real yDirDesire: theGameCtrl.axisY
     linearVelocity.y: yDirDesire * veloCompMax
 
-    onHealthChanged: {if(health < maxHealth) console.log("Ouch!")}
+    onEnergyChanged: {if(energy < maxEnergy) console.log("Ouch!")}
 
     Component {
         id: areaOfDamage

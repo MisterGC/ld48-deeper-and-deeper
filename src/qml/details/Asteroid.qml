@@ -13,8 +13,8 @@ LivingEntity
     categories: collCat.enemy
     collidesWith: collCat.staticGeo | collCat.player
     bodyType: Body.Dynamic
-    maxHealth: 1
-    onHealthChanged: if (health < 0) asteroid.destroy()
+    maxEnergy: 1
+    onEnergyChanged: if (energy < 0) asteroid.destroy()
     visu.sprites: [
         Sprite {
             name: "asteroid";

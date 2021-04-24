@@ -5,12 +5,11 @@ import Clayground.Physics 1.0
 import Clayground.Svg 1.0
 
 IconBar {
-    id: healthBar
     property Player observed: null
     height: observed ? observed.height * .5 : 1
-    maxValue: player ? player.maxHealth: 1
-    value: player ? player.health : 1
-    setSource: "visuals/heart_avail"
-    unsetSource: "visuals/heart_na"
+    maxValue: player ? player.maxEnergy: 1
+    value: player ? player.energy : 1
+    setSource: "visuals/energy_avail"
+    unsetSource: "visuals/energy_na"
 }
 

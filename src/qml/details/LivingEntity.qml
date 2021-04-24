@@ -10,8 +10,8 @@ AnimatedEntity
     id: theEntity
 
     bodyType: Body.Dynamic
-    property int maxHealth: 3
-    property int health: maxHealth
-    property bool isAlive: health >= 1
+    property int maxEnergy: 3
+    property int energy: maxEnergy
+    property bool isAlive: energy >= 1
     property bool invulnerable: false
 }
