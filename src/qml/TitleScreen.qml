@@ -5,23 +5,24 @@ import QtQuick.Controls 2.15
 
 import "details"
 
-Item {
+Rectangle {
+    color: gameState.screenBgColor
     Component.onCompleted: {
         if (gameMusic.sound != "menu_music")
             gameMusic.playLooped("menu_music")
     }
 
     Image {
-        id: titleImg
         anchors.centerIn: parent
         source: assets.visual("visuals/title_image")
         fillMode: Image.PreserveAspectFit
-        width: stack.width * .8
-        height: (sourceSize.height / sourceSize.width) * width
-        MouseArea {
-            anchors.fill: parent
-            onClicked: gameApp.transitionTo(menuScreenComp)
-        }
+        height: parent.height; width: height;
+        sourceSize.height: parent.height; sourceSize.width: parent.height * (493/722)
+    }
+
+    MouseArea {
+        anchors.fill: parent
+        onClicked: gameApp.transitionTo(menuScreenComp)
     }
 
     GameButton {
