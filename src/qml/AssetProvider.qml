@@ -63,7 +63,7 @@ Item
     // dictionary and just use the consts then
     readonly property string _STR_APP_DESCR_EN_US:
 "
-Enter the description of the app here.
+Astromoles is a game about moles who try to explore space and find new planets.
 "
 
     readonly property var _translations: new Map([
@@ -73,9 +73,9 @@ Enter the description of the app here.
            cLOCALE_ENGLISH_US,
            new Map(
                  [
-                  [cSTR_APP_NAME, "MyGame"],
+                  [cSTR_APP_NAME, "Astromoles"],
                   [cSTR_APP_DESCR, _STR_APP_DESCR_EN_US],
-                  [cSTR_APP_HOMEPAGE, "www.mygame.com"],
+                  [cSTR_APP_HOMEPAGE, "https://github.com/MisterGC/ld48-deeper-and-deeper"],
                   [cCHOOSE_YOUR_SETTINGS, "Choose your Settings."],
                   [cSTR_GET_READY, "Get Ready!"],
                   [cSTR_THE_END, "The End ..."]
