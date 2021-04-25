@@ -16,10 +16,10 @@ ResourceHolder
 
     // PHYSICS
     categories: collCat.player
-    collidesWith: collCat.staticGeo | collCat.asteroid
+    collidesWith: collCat.staticGeo | collCat.asteroid | collCat.planet
     Component.onCompleted: ClayPhysics.connectOnEntered(fixtures[0], _onCollision)
     function _onCollision(entity) {if (entity instanceof Asteroid) energy--;}
-    readonly property real veloCompMax: 25
+    readonly property real veloCompMax: 20
     property real xDirDesire: theGameCtrl.axisX
     linearVelocity.x: xDirDesire * veloCompMax
     property real yDirDesire: theGameCtrl.axisY

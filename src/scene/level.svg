@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="282.57909"
-     inkscape:cy="1094.2181"
+     inkscape:zoom="0.7"
+     inkscape:cx="1031.5942"
+     inkscape:cy="734.13155"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -82,8 +82,56 @@
 </desc>
     </rect>
     <rect
-       y="291.70453"
-       x="101.21041"
+       y="168.22684"
+       x="88.194206"
+       height="27.132807"
+       width="26.07925"
+       id="rect1828-31-9"
+       style="fill:#3776be;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-9-3">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;blue&quot;,
+&quot;name&quot;:&quot;blue&quot;,
+&quot;colonized&quot;:true
+}
+}</desc>
+    </rect>
+    <rect
+       y="248.41357"
+       x="97.359634"
+       height="27.132807"
+       width="26.07925"
+       id="rect4123"
+       style="fill:#e87a39;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4121">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;red&quot;,
+&quot;name&quot;:&quot;red&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="203.39563"
+       x="157.27907"
+       height="27.132807"
+       width="26.07925"
+       id="rect4127"
+       style="fill:#7e5cd8;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4125">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;purple&quot;,
+&quot;name&quot;:&quot;purple&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="162.31766"
+       x="98.096161"
        height="4.6471901"
        width="4.4667416"
        id="rect5922"
@@ -132,8 +180,8 @@
          id="desc5920-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="196.5972"
-       x="99.957771"
+       y="227.48833"
+       x="124.11346"
        height="4.4641337"
        width="4.2907934"
        id="rect5922-72"
@@ -282,8 +330,8 @@
          id="desc1826-5">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="188.12842"
-       x="79.968414"
+       y="226.01114"
+       x="56.771103"
        height="4.33498"
        width="4.1666546"
        id="rect1828-92"

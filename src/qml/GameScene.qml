@@ -23,21 +23,23 @@ ClayWorld {
     // SCENE CREATION CFG: Map Entity Types -> Components to be intialized
     components: new Map([
                     ['Player', c1],
-                    ['Asteroid', c2],
-                    ['Wall', c3],
-                    ['Floor', c4],
+                    ['Planet', c2],
+                    ['Asteroid', c3],
+                    ['Wall', c4],
+                    ['Floor', c5],
                     ['Finish', c5],
-                    ['StaticEntity', c6]
+                    ['StaticEntity', c7]
                 ])
     Component { id: c1; Player {} }
-    Component { id: c2; Asteroid {} }
-    Component { id: c3; Wall {} }
-    Component { id: c4; Floor {} }
-    Component { id: c5; RectTrigger {
+    Component { id: c2; Planet {} }
+    Component { id: c3; Asteroid {} }
+    Component { id: c4; Wall {} }
+    Component { id: c5; Floor {} }
+    Component { id: c6; RectTrigger {
             categories: collCat.staticGeo; collidesWith: collCat.player
             onEntered: {console.log("Game Finished"); gameApp.transitionTo(endingScreenComp, true); }
         } }
-    Component { id: c6; StaticEntity {} }
+    Component { id: c7; StaticEntity {} }
 
 
     // PHYSICS SETTINGS
@@ -48,7 +50,8 @@ ClayWorld {
         id: collCat
         readonly property int staticGeo: Box.Category1
         readonly property int player: Box.Category2
-        readonly property int enemy: Box.Category3
+        readonly property int asteroid: Box.Category3
+        readonly property int planet: Box.Category4
         readonly property int noCollision: Box.None
     }
 
