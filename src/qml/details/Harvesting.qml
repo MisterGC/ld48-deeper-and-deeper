@@ -4,6 +4,8 @@ import QtQuick 2.12
 import Clayground.Physics 1.0
 import Box2D 2.0
 
+// TODO Call it Mining as it better describes what is done with this
+// activity
 Activity
 {
     readonly property real _h2oPerSec: gameState.harvestH2oPerSec
@@ -33,6 +35,8 @@ Activity
     }
 
     onSecondPassedBy: {
+        actor.energy -= (gameState.miningEnergyPerSec < actor.energy ?
+                         gameState.miningEnergyPerSec : actor.energy);
         for (let e of asteroidsWithinRange.entities){
             if (e instanceof Asteroid) {
 

@@ -19,6 +19,7 @@ Item {
     readonly property real asteroidMaxEnergy: 3
     // Resource Costs
     readonly property real movingEnergyPerSec: .1
+    readonly property real miningEnergyPerSec: .2
     readonly property real supplyH2oPerSec: .1
     // Resource Gains
     readonly property real harvestH2oPerSec: 1
