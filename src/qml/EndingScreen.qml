@@ -7,9 +7,20 @@ import QtMultimedia 5.15
 import "details"
 
 Rectangle {
+    color: gameState.screenBgColor
     Component.onCompleted: gameMusic.playLooped("ending_music");
-    Text{anchors.centerIn: parent;
-        text: "You have found " + gameState.score + " planet(s)."
+    Image {
+        anchors.centerIn: parent
+        source: assets.visual("visuals/patch")
+        fillMode: Image.PreserveAspectFit
+        height: .5 * parent.height; width: height
+        sourceSize.height: .5 * parent.height; sourceSize.width: height
+        Text{
+            anchors.top: parent.bottom; anchors.topMargin: height *.2
+            anchors.horizontalCenter: parent.horizontalCenter
+            text: "You have found " + gameState.score + " planet(s)."
+            font.pixelSize: parent.height * .1; color: "white"
+        }
     }
     MouseArea{anchors.fill: parent; onClicked: gameApp.transitionTo(gameSceneComp);}
 }
