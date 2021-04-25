@@ -7,9 +7,12 @@ import "details"
 Rectangle {
     id: menuButtons
     color: gameState.screenBgColor
-    Text {
-       anchors.centerIn: parent
-       text: assets.text(assets.cCHOOSE_YOUR_SETTINGS)
+    Image {
+        anchors.centerIn: parent
+        source: assets.visual("visuals/instructions")
+        fillMode: Image.PreserveAspectFit
+        height: parent.height * .8; width: height;
+        sourceSize.height: parent.height; sourceSize.width: parent.height * (783/500)
     }
     MouseArea{
         anchors.fill: parent;
