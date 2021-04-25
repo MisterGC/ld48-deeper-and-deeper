@@ -109,6 +109,48 @@ ClayWorld {
         }
     }
 
+    // TODO Update Clayground Minimap to cover requirements of this game
+    Rectangle{
+        id: _minimap
+        readonly property var _observed: gameScene.room
+        readonly property real _xScale: (1.0 * width)/_observed.width
+        readonly property real _yScale: (1.0 * height)/_observed.height
+        parent: gameScene
+        opacity: 0.75
+        width: parent.width * 0.15
+        height: width * (coordSys.height / coordSys.width)
+        anchors.right: parent.right
+        anchors.rightMargin: width * 0.1
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: anchors.rightMargin
+        color: "black"
+        Rectangle{
+            id: _playerMapEl
+            color: "lightgreen";
+            property Player observed: gameScene.player
+            x: _minimap._xScale * (observed ? observed.x : 0)
+            y: _minimap._yScale * (observed ? observed.y : 0)
+            width: _minimap._xScale * 5 * (observed ? observed.width : 0)
+            height: _minimap._yScale * 5 * (observed ? observed.height : 0)
+        }
+        function addPlanet(planet){_planetMapElComp.createObject(_minimap, {observed: planet})}
+        Component{
+            id: _planetMapElComp;
+            Rectangle{
+                id: _planetMapEl
+                color: "orange";
+                opacity: observed && observed.colonized ? 1.0 : 0.0
+                Behavior on opacity {NumberAnimation{duration: 250}}
+                property Planet observed: null
+                x: _minimap._xScale * (observed ? observed.x : 0)
+                y: _minimap._yScale * (observed ? observed.y : 0)
+                width: _minimap._xScale * (observed ? observed.width : 0)
+                height: _minimap._yScale * (observed ? observed.height : 0)
+            }
+        }
+    }
+
+
     GameButton {
         height: gameScene.height * .08; width: height
         anchors.right: parent.right
