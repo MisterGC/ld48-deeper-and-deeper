@@ -18,12 +18,20 @@ ResourceHolder
     categories: collCat.player
     collidesWith: collCat.staticGeo | collCat.asteroid | collCat.planet
     Component.onCompleted: ClayPhysics.connectOnEntered(fixtures[0], _onCollision)
-    function _onCollision(entity) {if (entity instanceof Asteroid) energy--;}
-    readonly property real veloCompMax: 20
+    function _onCollision(entity) {if (entity instanceof Asteroid) {energy--;_collSound.play();}}
+    readonly property real veloCompMax: 12
     property real xDirDesire: theGameCtrl.axisX
     linearVelocity.x: xDirDesire * veloCompMax
     property real yDirDesire: theGameCtrl.axisY
     linearVelocity.y: yDirDesire * veloCompMax
+
+    // SOUND
+    GameSound{id: _collSound; sound:"collision"}
+    GameSound{id: _newPlanetSound; sound:"newplanet"}
+    Connections{
+        target: gameState
+        function onScoreChanged(){if(gameState.score>0) _newPlanetSound.play();}
+    }
 
     // VISUAL
     Connections{
@@ -79,11 +87,13 @@ ResourceHolder
                  Math.abs(yDirDesire) > Number.MIN_VALUE
         coolDownMs: 500
     }
-    Harvesting{id: harvesting;  actor: player; running: theGameCtrl.buttonAPressed}
+    Harvesting{id: harvesting;  actor: player; running: theGameCtrl.buttonAPressed;
+        onRunningChanged: {
+            if (running) _miningSound.play();
+            else _miningSound.stop();
+        }
+        GameSound{id:_miningSound; sound:"mining"; loops: SoundEffect.Infinite}
+
+    }
     SupplyingWithH2o{actor: player; running: player.h2o>0}
-
-
-    onEnergyChanged: {if(energy < maxEnergy) console.log("Ouch!")}
-
-
 }
