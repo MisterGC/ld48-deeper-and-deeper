@@ -40,7 +40,7 @@ Item {
     property int fontPixelSize: 10
     property int safeTopMargin: 10
     property int buttonWidth: 100
-    readonly property string screenBgColor: "#96d6d5ff"
+    readonly property string screenBgColor: "#292626"
     readonly property string energyColor: "#70dc4e"
     readonly property string h2oColor: "#4ecfdc"
 
