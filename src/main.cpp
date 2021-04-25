@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 
     // Android demands qml plugins to be stored under qml, use same approach
     // for all other platforms too
-    engine.addImportPath(QCoreApplication::applicationDirPath() + "/qml");
+    engine.addImportPath(QCoreApplication::applicationDirPath() + "/plugins");
     engine.load(QUrl("qrc:/qml/main.qml"));
     return app.exec();
 }
