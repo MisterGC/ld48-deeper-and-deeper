@@ -59,7 +59,11 @@ ClayWorld {
     running: player
     property var player: null
 
-    onMapAboutToBeLoaded: {player = null; gameState.score=0}
+    onMapAboutToBeLoaded: {
+        player = null;
+        gameState.score=0;
+        gameState.numOfPlanets=0;
+    }
     onMapLoaded: {
         theGameCtrl.selectKeyboard(Qt.Key_S,
                                    Qt.Key_W,
@@ -75,13 +79,23 @@ ClayWorld {
     Keys.forwardTo: theGameCtrl
     GameController { id: theGameCtrl; anchors.fill: parent }
 
-    Row {
+    Column{
         anchors.top: parent.top
         anchors.topMargin: gameState.safeTopMargin
         anchors.horizontalCenter: parent.horizontalCenter
-        spacing: .5 * height
-        EnergyBar { observed: player }
-        H2oBar { observed: player }
+        spacing: .1 * _resourcesVisu.height
+        Row {
+            id: _resourcesVisu
+            anchors.horizontalCenter: parent.horizontalCenter
+            spacing: .5 * height
+            EnergyBar { observed: player }
+            H2oBar { observed: player }
+        }
+        Text{
+            anchors.horizontalCenter: parent.horizontalCenter
+            color: "#5da9ff"; text: gameState.score  + "/" + (gameState.numOfPlanets-1) + " planets found"
+            font.pixelSize: _resourcesVisu.height; font.bold: true
+        }
     }
 
     onMapEntityCreated: {
@@ -89,15 +103,19 @@ ClayWorld {
             gameScene.player = obj;
             obj.z = 500;
         }
+        else if (obj instanceof Planet){
+           _minimap.addPlanet(obj);
+           gameState.numOfPlanets++;
+        }
     }
 
     GameButton {
-        width: gameScene.width * .08
+        height: gameScene.height * .08; width: height
         anchors.right: parent.right
         anchors.rightMargin: width * .3
         y: height * .3
         sourcePath: "visuals/btn_restart"
-        onClicked: gameApp.transitionTo(gameSceneComp);
+        onClicked: gameApp.transitionTo(gameSceneComp, true);
     }
 
     Connections{

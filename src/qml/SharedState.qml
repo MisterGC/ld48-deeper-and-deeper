@@ -29,6 +29,7 @@ Item {
     property string level: "level"
     property int score: 0
     property int _highScore: 0
+    property int numOfPlanets: 0
 
     // SOUND/MUSIC
     property bool muteSound: false
