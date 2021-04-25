@@ -6,6 +6,7 @@
         <file>level_music.mp3</file>
         <file>loose.wav</file>
         <file>menu_music.mp3</file>
+        <file>ending_music.mp3</file>
         <file>win.wav</file>
     </qresource>
 </RCC>

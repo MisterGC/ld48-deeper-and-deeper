@@ -7,6 +7,7 @@ import QtMultimedia 5.15
 import "details"
 
 Rectangle {
+    Component.onCompleted: gameMusic.playLooped("ending_music");
     Text{anchors.centerIn: parent;
         text: "You have found " + gameState.score + " planet(s)."
     }

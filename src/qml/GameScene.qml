@@ -57,8 +57,6 @@ ClayWorld {
 
 
     running: player
-    property bool paused: false
-    onPausedChanged: gameMusic.volume = gameScene.paused ? .5 : 1
     property var player: null
 
     onMapAboutToBeLoaded: {player = null; gameState.score=0}
