@@ -10,4 +10,5 @@ RectBoxBody
     color: "#504a49"
     categories: collCat.staticGeo
     collidesWith: collCat.player | collCat.asteroid
+    restitution: .5
 }
