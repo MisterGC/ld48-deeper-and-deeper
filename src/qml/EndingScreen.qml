@@ -7,5 +7,8 @@ import QtMultimedia 5.15
 import "details"
 
 Rectangle {
-    Text{anchors.centerIn: parent; text: assets.text(assets.cSTR_THE_END)}
+    Text{anchors.centerIn: parent;
+        text: "You have found " + gameState.score + " planet(s)."
+    }
+    MouseArea{anchors.fill: parent; onClicked: gameApp.transitionTo(gameSceneComp);}
 }

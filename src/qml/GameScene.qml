@@ -56,12 +56,12 @@ ClayWorld {
     }
 
 
-    running: !player ? false : player.isAlive && !paused
+    running: player
     property bool paused: false
     onPausedChanged: gameMusic.volume = gameScene.paused ? .5 : 1
     property var player: null
 
-    onMapAboutToBeLoaded: {player = null;}
+    onMapAboutToBeLoaded: {player = null; gameState.score=0}
     onMapLoaded: {
         theGameCtrl.selectKeyboard(Qt.Key_S,
                                    Qt.Key_W,
@@ -93,38 +93,23 @@ ClayWorld {
         }
     }
 
-    Timer {id: scoreBoardTrigger; interval: 7000; onTriggered: gameApp.transitionTo(endingScreenComp)}
-
-    MouseArea {
-        id: inGameMenu
-        visible: gameScene.paused ||  (player && !player.isAlive)
-        anchors.fill: parent
-        onClicked: gameScene.paused = false
-        Row {
-            anchors.centerIn: parent
-            spacing: gameState.btnWidth * .1
-            GameButton {
-                width: gameState.btnWidth
-                sourcePath: "visuals/btn_restart"
-                onClicked: gameApp.transitionTo(gameSceneComp, true)
-            }
-            GameButton {
-                width: gameState.btnWidth
-                sourcePath: "visuals/btn_exit"
-                onClicked: gameApp.transitionTo(menuScreenComp, true)
-            }
-        }
-    }
-
     GameButton {
-        id: _playBtn
-        visible: (player && player.isAlive)
         width: gameScene.width * .08
         anchors.right: parent.right
         anchors.rightMargin: width * .3
         y: height * .3
-        sourcePath: "visuals/" + (gameScene.paused ? "btn_play" : "btn_pause")
-        onClicked: gameScene.paused = !gameScene.paused
+        sourcePath: "visuals/btn_restart"
+        onClicked: gameApp.transitionTo(gameSceneComp);
     }
 
+    Connections{
+        target: gameScene.player
+        ignoreUnknownSignals: true
+        function onEnergyChanged(){_endGameOnDemand()}
+        function onH2oChanged(){_endGameOnDemand()}
+    }
+    function _endGameOnDemand(){
+        if (player.energy <= 0 || player.h2o <=0)
+            gameApp.transitionTo(endingScreenComp);
+    }
 }

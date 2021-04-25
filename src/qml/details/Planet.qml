@@ -23,7 +23,13 @@ ResourceHolder
 
     Component.onCompleted: {
         ClayPhysics.connectOnEntered(body.fixtures[0],
-                                     (p) => {planet.colonized = true; _reTim.player = p;},
+                                     (p) => {
+                                         if (!planet.colonized) {
+                                         gameState.score++;
+                                         planet.colonized = true;
+                                         }
+                                         _reTim.player = p;
+                                     },
                                      (f) => {return f.getBody().target instanceof Player;});
         ClayPhysics.connectOnLeft(body.fixtures[0],
                                      (p) => {_reTim.player = null;},

@@ -92,14 +92,14 @@
          id="desc1826-9-3">{&quot;component&quot;:&quot;Planet&quot;,
 &quot;properties&quot;:{
 &quot;type&quot;:&quot;blue&quot;,
-&quot;name&quot;:&quot;blue&quot;,
+&quot;name&quot;:&quot;Mole-Home&quot;,
 &quot;colonized&quot;:true
 }
 }</desc>
     </rect>
     <rect
-       y="248.41357"
-       x="97.359634"
+       y="279.58093"
+       x="100.95763"
        height="27.132807"
        width="26.07925"
        id="rect4123"
@@ -108,14 +108,14 @@
          id="desc4121">{&quot;component&quot;:&quot;Planet&quot;,
 &quot;properties&quot;:{
 &quot;type&quot;:&quot;red&quot;,
-&quot;name&quot;:&quot;red&quot;,
+&quot;name&quot;:&quot;Red Z7&quot;,
 &quot;colonized&quot;:false
 }
 }</desc>
     </rect>
     <rect
-       y="203.39563"
-       x="157.27907"
+       y="42.386528"
+       x="162.67593"
        height="27.132807"
        width="26.07925"
        id="rect4127"
@@ -124,14 +124,14 @@
          id="desc4125">{&quot;component&quot;:&quot;Planet&quot;,
 &quot;properties&quot;:{
 &quot;type&quot;:&quot;purple&quot;,
-&quot;name&quot;:&quot;purple&quot;,
+&quot;name&quot;:&quot;Purple X1&quot;,
 &quot;colonized&quot;:false
 }
 }</desc>
     </rect>
     <rect
-       y="162.31766"
-       x="98.096161"
+       y="155.14407"
+       x="100.08531"
        height="4.6471901"
        width="4.4667416"
        id="rect5922"
@@ -198,16 +198,6 @@
        style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
          id="desc5920-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
-    </rect>
-    <rect
-       y="0.20083618"
-       x="3.7048347"
-       height="19.059004"
-       width="196.31062"
-       id="rect5922-7-6-0-1-7"
-       style="fill:#fbfcdd;fill-opacity:1;stroke:none;stroke-width:2.07996;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc5920-1-1-9-7-1">{&quot;component&quot;:&quot;Finish&quot;}</desc>
     </rect>
     <rect
        y="154.18343"
