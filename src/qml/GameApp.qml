@@ -33,10 +33,11 @@ Rectangle
     Audio {
         id: gameMusic
         audioRole: Audio.MusicRole
+        volume: .5
         property string sound: ""
         muted: gameState.muteMusic
         source: assets.sound(sound)
-        function _play(snd) {stop(); volume = 1; sound=snd; play();}
+        function _play(snd) {stop(); sound=snd; play();}
         function playLooped(snd) {loops = SoundEffect.Infinite; _play(snd);}
         function playOneTime(snd){loops = 1; _play(snd);}
     }
