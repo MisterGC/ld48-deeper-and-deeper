@@ -15,7 +15,6 @@ Rectangle
     color: "black"
 
     SharedState { id: gameState }
-    Component.onCompleted: gameState.load()
 
     StackView {
         id: stack
