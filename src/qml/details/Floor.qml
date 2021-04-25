@@ -9,6 +9,6 @@ StaticEntity
 {
     active: false // no need for physics
     fillMode: Image.Tile
-    tileWidthWu: 100
-    tileHeightWu: 100
+    tileWidthWu: 40
+    tileHeightWu: 40
 }
