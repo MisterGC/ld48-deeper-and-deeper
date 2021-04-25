@@ -11,17 +11,20 @@ ResourceHolder
     id: asteroid
 
     categories: collCat.asteroid
-    collidesWith: collCat.staticGeo | collCat.player | collCat.asteroid
+    collidesWith: collCat.staticGeo | collCat.player
     bodyType: Body.Dynamic
     density: 6
     restitution: .1
+
+    property real maxVeloX: 1.
+    property real maxVeloY: 1.
 
     Component.onCompleted: _letFlow.start()
     Timer{
         id: _letFlow; interval: 1000;
         onTriggered: {
-            linearVelocity.x= Math.random() * 1 * (Math.random() > .5 ? 1 : -1);
-            linearVelocity.y= Math.random() * 1 * (Math.random() > .5 ? 1 : -1);
+            linearVelocity.x= Math.random() * asteroid.maxVeloX * (Math.random() > .5 ? 1 : -1);
+            linearVelocity.y= Math.random() * asteroid.maxVeloY * (Math.random() > .5 ? 1 : -1);
         }
     }
 

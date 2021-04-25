@@ -25,8 +25,8 @@ ResourceHolder
         ClayPhysics.connectOnEntered(body.fixtures[0],
                                      (p) => {
                                          if (!planet.colonized) {
-                                         gameState.score++;
-                                         planet.colonized = true;
+                                             gameState.score++;
+                                             planet.colonized = true;
                                          }
                                          _reTim.player = p;
                                      },

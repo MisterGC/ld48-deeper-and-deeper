@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="203.49683mm"
-   height="323.90298mm"
-   viewBox="0 0 203.49683 323.90299"
+   width="1036.0687mm"
+   height="1012.203mm"
+   viewBox="0 0 1036.0687 1012.203"
    version="1.1"
    id="svg1623"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="1031.5942"
-     inkscape:cy="734.13155"
+     inkscape:zoom="0.175"
+     inkscape:cx="1117.9683"
+     inkscape:cy="2134.0678"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -43,8 +43,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid6135"
-       originx="-0.23527776"
-       originy="223.26827" />
+       originx="-1.6634648"
+       originy="911.56826" />
   </sodipodi:namedview>
   <metadata
      id="metadata1620">
@@ -65,12 +65,12 @@
     <rect
        style="fill:#292626;fill-opacity:1;stroke-width:14.0105;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
        id="rect5055"
-       width="199.4639"
-       height="322.34421"
+       width="1034.5901"
+       height="1010.7847"
        x="1.4281871"
-       y="0.14042664"
-       rx="0.016087249"
-       ry="39.500465">
+       y="1.1368684e-13"
+       rx="0.083442211"
+       ry="123.86282">
       <desc
          id="desc5269">{&quot;component&quot;:&quot;Floor&quot;,
 &quot;properties&quot;: 
@@ -82,8 +82,8 @@
 </desc>
     </rect>
     <rect
-       y="168.22684"
-       x="88.194206"
+       y="462.81342"
+       x="467.88019"
        height="27.132807"
        width="26.07925"
        id="rect1828-31-9"
@@ -98,8 +98,8 @@
 }</desc>
     </rect>
     <rect
-       y="279.58093"
-       x="100.95763"
+       y="959.33099"
+       x="105.32431"
        height="27.132807"
        width="26.07925"
        id="rect4123"
@@ -108,13 +108,13 @@
          id="desc4121">{&quot;component&quot;:&quot;Planet&quot;,
 &quot;properties&quot;:{
 &quot;type&quot;:&quot;red&quot;,
-&quot;name&quot;:&quot;Red Z7&quot;,
+&quot;name&quot;:&quot;Red Z5&quot;,
 &quot;colonized&quot;:false
 }
 }</desc>
     </rect>
     <rect
-       y="42.386528"
+       y="730.68658"
        x="162.67593"
        height="27.132807"
        width="26.07925"
@@ -124,14 +124,14 @@
          id="desc4125">{&quot;component&quot;:&quot;Planet&quot;,
 &quot;properties&quot;:{
 &quot;type&quot;:&quot;purple&quot;,
-&quot;name&quot;:&quot;Purple X1&quot;,
+&quot;name&quot;:&quot;Purple X6&quot;,
 &quot;colonized&quot;:false
 }
 }</desc>
     </rect>
     <rect
-       y="155.14407"
-       x="100.08531"
+       y="452.74893"
+       x="476.3248"
        height="4.6471901"
        width="4.4667416"
        id="rect5922"
@@ -140,9 +140,9 @@
          id="desc5920">{&quot;component&quot;:&quot;Player&quot;}</desc>
     </rect>
     <rect
-       y="0.03868103"
+       y="1.071192"
        x="-1.3877788e-17"
-       height="323.84045"
+       height="1011.108"
        width="3.5926869"
        id="rect2172-5"
        style="opacity:1;fill:#504a49;fill-opacity:1;stroke:none;stroke-width:1.29881;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
@@ -150,9 +150,9 @@
          id="desc5900-6">{&quot;component&quot;:&quot;Wall&quot;}</desc>
     </rect>
     <rect
-       y="0"
-       x="199.90414"
-       height="323.43445"
+       y="0.0041251476"
+       x="1032.4761"
+       height="1012.1967"
        width="3.5926869"
        id="rect2172-5-1"
        style="opacity:1;fill:#504a49;fill-opacity:1;stroke:none;stroke-width:1.298;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
@@ -162,15 +162,15 @@
     <rect
        style="opacity:1;fill:#504a49;fill-opacity:1;stroke:none;stroke-width:1.04172;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect6175"
-       width="203.35625"
+       width="1035.1575"
        height="3.6804476"
-       x="0.061251104"
-       y="320.22253">
+       x="0.061251108"
+       y="1008.5226">
       <desc
          id="desc6173">{&quot;component&quot;:&quot;Wall&quot;}</desc>
     </rect>
     <rect
-       y="291.26056"
+       y="979.56061"
        x="19.53677"
        height="4.4122353"
        width="4.2409101"
@@ -180,7 +180,7 @@
          id="desc5920-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="227.48833"
+       y="915.78839"
        x="124.11346"
        height="4.4641337"
        width="4.2907934"
@@ -190,7 +190,7 @@
          id="desc5920-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="257.38641"
+       y="945.68646"
        x="83.078957"
        height="4.33498"
        width="4.1666546"
@@ -200,17 +200,7 @@
          id="desc5920-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="154.18343"
-       x="122.19073"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc1822">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
-    </rect>
-    <rect
-       y="241.09877"
+       y="929.3988"
        x="153.26511"
        height="4.33498"
        width="4.1666546"
@@ -220,7 +210,7 @@
          id="desc1826">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="80.711624"
+       y="769.01166"
        x="167.59883"
        height="4.33498"
        width="4.1666546"
@@ -230,7 +220,7 @@
          id="desc1830">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="155.02896"
+       y="843.32904"
        x="56.008198"
        height="4.33498"
        width="4.1666546"
@@ -240,7 +230,7 @@
          id="desc1834">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="74.399261"
+       y="762.69934"
        x="61.082012"
        height="4.33498"
        width="4.1666546"
@@ -250,7 +240,7 @@
          id="desc1838">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="174.76494"
+       y="863.065"
        x="146.7858"
        height="4.33498"
        width="4.1666546"
@@ -260,7 +250,7 @@
          id="desc1826-6">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="97.52404"
+       y="785.8241"
        x="92.797356"
        height="4.33498"
        width="4.1666546"
@@ -270,7 +260,7 @@
          id="desc1826-62">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="44.871952"
+       y="733.172"
        x="24.376354"
        height="4.33498"
        width="4.1666546"
@@ -280,7 +270,7 @@
          id="desc1826-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="35.25024"
+       y="723.55029"
        x="154.53662"
        height="4.33498"
        width="4.1666546"
@@ -290,7 +280,7 @@
          id="desc1826-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="78.013374"
+       y="766.31342"
        x="123.53335"
        height="4.33498"
        width="4.1666546"
@@ -300,7 +290,7 @@
          id="desc1826-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="141.08897"
+       y="829.38904"
        x="31.592634"
        height="4.33498"
        width="4.1666546"
@@ -310,7 +300,7 @@
          id="desc1826-3">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="234.63332"
+       y="922.93335"
        x="30.790825"
        height="4.33498"
        width="4.1666546"
@@ -320,7 +310,7 @@
          id="desc1826-5">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="226.01114"
+       y="914.31122"
        x="56.771103"
        height="4.33498"
        width="4.1666546"
@@ -330,7 +320,7 @@
          id="desc1826-28">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="129.32912"
+       y="817.62915"
        x="172.97821"
        height="4.33498"
        width="4.1666546"
@@ -340,7 +330,7 @@
          id="desc1826-36">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="38.190212"
+       y="726.49023"
        x="78.097534"
        height="4.33498"
        width="4.1666546"
@@ -350,7 +340,7 @@
          id="desc1826-29">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="286.75085"
+       y="975.0509"
        x="60.457741"
        height="4.33498"
        width="4.1666546"
@@ -360,7 +350,7 @@
          id="desc1826-9">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="289.15628"
+       y="977.45636"
        x="177.78906"
        height="4.33498"
        width="4.1666546"
@@ -370,7 +360,7 @@
          id="desc1826-78">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="188.12842"
+       y="876.42847"
        x="36.136215"
        height="4.33498"
        width="4.1666546"
@@ -380,7 +370,7 @@
          id="desc1826-0">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="113.29294"
+       y="801.59302"
        x="53.508736"
        height="4.33498"
        width="4.1666546"
@@ -392,142 +382,1896 @@
     <rect
        style="opacity:1;fill:#504a49;fill-opacity:1;stroke:none;stroke-width:1.04172;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2964"
-       width="203.35625"
+       width="1034.9722"
        height="3.6804476"
-       x="0.094300881"
-       y="0.49661466">
+       x="0"
+       y="-1.1368684e-13">
       <desc
          id="desc2962">{&quot;component&quot;:&quot;Wall&quot;}</desc>
     </rect>
     <rect
-       y="133.17116"
-       x="79.450615"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824-4"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       y="234.67365"
+       x="373.63052"
+       height="27.132807"
+       width="26.07925"
+       id="rect4127-3"
+       style="fill:#7e5cd8;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-6">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc4125-3">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;purple&quot;,
+&quot;name&quot;:&quot;Purple X2&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
     </rect>
     <rect
-       y="116.16222"
-       x="141.72218"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824-2"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       y="272.33826"
+       x="374.27295"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1832-3"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-67">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc1830-8">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="199.03351"
-       x="145.97443"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824-5"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       y="266.02594"
+       x="267.75613"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1840-0"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-69">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc1838-4">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="196.95464"
-       x="58.661922"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824-8"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       y="289.1507"
+       x="299.47147"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-0-7"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc1826-62-6">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="262.7225"
-       x="51.007904"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824-28"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       y="236.4986"
+       x="231.05048"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-6-8"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc1826-1-9">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="268.77011"
-       x="167.23558"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824-9"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       y="226.87689"
+       x="361.21075"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-8-0"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-9">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc1826-7-6">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="91.499275"
-       x="25.022041"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824-6"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       y="269.64001"
+       x="330.20746"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-9-8"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-0">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc1826-2-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="50.866837"
-       x="113.65746"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824-27"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       y="332.71564"
+       x="238.26675"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-02-9"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-61">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc1826-3-0">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="27.243326"
-       x="38.345703"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824-3"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       y="320.95575"
+       x="379.65234"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-97-3"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-21">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc1826-36-3">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="268.95911"
-       x="126.98112"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824-59"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       y="229.81683"
+       x="284.77167"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-1-3"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-91">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc1826-29-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="305.33929"
-       x="145.02948"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824-49"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       y="304.91962"
+       x="260.18286"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-36-3"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc1826-10-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
     </rect>
     <rect
-       y="240.32741"
-       x="77.56073"
-       height="2.3987639"
-       width="2.3056209"
-       id="rect1824-0"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       y="580.70361"
+       x="675.34845"
+       height="27.132807"
+       width="26.07925"
+       id="rect4127-4"
+       style="fill:#7e5cd8;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-75">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc4125-1">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;purple&quot;,
+&quot;name&quot;:&quot;Purple X7&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
     </rect>
     <rect
-       y="311.57593"
-       x="38.912666"
+       y="619.78864"
+       x="673.61481"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1832-0"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1830-4">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="613.47632"
+       x="567.09802"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1840-8"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1838-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="636.60107"
+       x="598.81335"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-0-0"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-62-8">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="583.94897"
+       x="530.39233"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-6-6"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-1-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="574.32727"
+       x="660.55261"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-8-4"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-7-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="617.09039"
+       x="629.54932"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-9-9"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-2-3">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="680.16602"
+       x="537.60864"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-02-92"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-3-8">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="668.40613"
+       x="678.9942"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-97-30"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-36-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="577.26721"
+       x="584.11353"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-1-7"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-29-8">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="652.37"
+       x="559.52472"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-36-9"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-10-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="850.87128"
+       x="477.32693"
+       height="27.132807"
+       width="26.07925"
+       id="rect4127-35"
+       style="fill:#7e5cd8;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4125-7">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;purple&quot;,
+&quot;name&quot;:&quot;Purple X9&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="889.19635"
+       x="482.24985"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1832-08"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1830-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="882.88403"
+       x="375.73303"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1840-9"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1838-9">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="906.00879"
+       x="407.44836"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-0-78"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-62-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="853.35669"
+       x="339.02737"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-6-5"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-1-3">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="843.73499"
+       x="469.18762"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-8-49"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-7-0">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="886.49811"
+       x="438.18436"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-9-2"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-2-0">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="949.57373"
+       x="346.24365"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-02-1"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-3-9">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="937.81384"
+       x="487.62921"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-97-6"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-36-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="846.67493"
+       x="392.74854"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-1-1"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-29-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="921.77771"
+       x="368.15976"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-36-0"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-10-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="584.67078"
+       x="361.86652"
+       height="27.132807"
+       width="26.07925"
+       id="rect4127-0"
+       style="fill:#7e5cd8;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4125-6">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;purple&quot;,
+&quot;name&quot;:&quot;Purple X5&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="622.99585"
+       x="366.7894"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1832-4"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1830-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="561.56311"
+       x="448.98334"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1840-4"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1838-8">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="639.80829"
+       x="291.98792"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-0-5"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-62-82">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="587.15619"
+       x="223.56693"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-6-60"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-1-6">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="577.53448"
+       x="353.7272"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-8-6"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-7-4">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="481.59998"
+       x="307.48901"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-9-6"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-2-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="683.37323"
+       x="230.7832"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-02-8"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-3-96">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="671.61334"
+       x="372.16879"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-97-0"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-36-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="580.47443"
+       x="277.28812"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-1-0"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-29-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="655.57721"
+       x="252.69931"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-36-01"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-10-3">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="438.88004"
+       x="202.271"
+       height="27.132807"
+       width="26.07925"
+       id="rect4127-5"
+       style="fill:#7e5cd8;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4125-10">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;purple&quot;,
+&quot;name&quot;:&quot;Purple X4&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="473.32495"
+       x="193.59874"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1832-37"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1830-88">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="467.01263"
+       x="87.081924"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1840-6"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1838-0">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="490.13739"
+       x="118.79727"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-0-4"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-62-67">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="437.48529"
+       x="50.37627"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-6-609"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-1-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="427.86359"
+       x="180.53653"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-8-5"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-7-9">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="401.10944"
+       x="274.63562"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-9-7"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-2-8">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="533.70233"
+       x="57.592548"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-02-5"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-3-3">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="521.94244"
+       x="198.97812"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-97-38"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-36-37">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="430.80353"
+       x="104.09745"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-1-9"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-29-3">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="505.90631"
+       x="79.508652"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-36-7"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-10-8">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="484.11261"
+       x="51.021957"
        height="2.3987639"
        width="2.3056209"
-       id="rect1824-87"
-       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       id="rect1824-6-8"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc1822-04">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+         id="desc1822-0-58">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="430.92288"
+       x="710.75757"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1832-9"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1830-79">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="413.55872"
+       x="579.92694"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1840-93"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1838-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="335.42834"
+       x="616.16547"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-0-43"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-62-7">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="384.03137"
+       x="543.22125"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-6-1"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-1-22">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="374.40967"
+       x="673.38153"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-8-02"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-7-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="417.17279"
+       x="642.3783"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-9-75"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-2-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="480.24841"
+       x="550.43756"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-02-7"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-3-4">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="468.48853"
+       x="691.82312"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-97-1"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-36-71">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="377.34961"
+       x="596.94244"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-1-11"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-29-70">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="452.45239"
+       x="572.35364"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-36-4"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-10-0">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="192.12027"
+       x="972.62964"
+       height="27.132807"
+       width="26.07925"
+       id="rect4127-1"
+       style="fill:#7e5cd8;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4125-02">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;purple&quot;,
+&quot;name&quot;:&quot;Purple X3&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="232.78236"
+       x="971.88763"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1832-2"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1830-9">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="226.47005"
+       x="865.37079"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1840-7"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1838-5">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="249.5948"
+       x="897.08612"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-0-6"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-62-4">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="196.9427"
+       x="828.66516"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-6-63"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-1-79">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="187.321"
+       x="958.82538"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-8-7"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-7-49">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="230.08412"
+       x="927.82214"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-9-1"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-2-70">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="293.15976"
+       x="835.88141"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-02-6"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-3-08">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="281.39987"
+       x="977.26697"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-97-5"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-36-39">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="190.26094"
+       x="882.38629"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-1-4"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-29-15">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="265.36374"
+       x="857.79749"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-36-41"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-10-5">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="53.338985"
+       x="694.34979"
+       height="27.132807"
+       width="26.07925"
+       id="rect4127-36"
+       style="fill:#7e5cd8;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4125-33">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;purple&quot;,
+&quot;name&quot;:&quot;Purple X1&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="91.664055"
+       x="699.27271"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1832-44"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1830-3">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="85.351738"
+       x="592.75586"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1840-97"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1838-25">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="108.47649"
+       x="624.47119"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-0-8"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-62-9">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="55.824398"
+       x="556.05023"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-6-0"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-1-24">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="46.202694"
+       x="686.21051"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-8-76"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-7-5">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="88.965813"
+       x="655.20721"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-9-71"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-2-33">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="152.04144"
+       x="563.26648"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-02-3"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-3-85">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="140.28156"
+       x="704.6521"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-97-10"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-36-8">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="49.142635"
+       x="609.77142"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-1-76"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-29-35">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="124.24541"
+       x="585.18262"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-36-08"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-10-04">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="117.32194"
+       x="225.6711"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1832-99"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1830-0">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="111.00962"
+       x="119.15427"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1840-76"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1838-3">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="134.13438"
+       x="150.86961"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-0-76"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-62-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="81.482277"
+       x="82.448616"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-6-50"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-1-65">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="71.860573"
+       x="212.60889"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-8-08"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-7-12">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="114.6237"
+       x="181.60561"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-9-26"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-2-9">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="177.69933"
+       x="89.664894"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-02-10"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-3-42">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="165.93944"
+       x="231.05048"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-97-7"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-36-4">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="74.800514"
+       x="136.1698"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-1-03"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-29-28">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="149.90331"
+       x="111.58099"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-36-03"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-10-70">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="865.67664"
+       x="878.87781"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1832-92"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1830-2">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="859.36432"
+       x="772.36096"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1840-3"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1838-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="882.48907"
+       x="804.07635"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-0-83"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-62-42">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="829.83698"
+       x="735.65533"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-6-2"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-1-4">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="820.21527"
+       x="865.81561"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-8-51"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-7-75">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="862.97839"
+       x="834.81232"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-9-716"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-2-98">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="926.05402"
+       x="742.87164"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-02-13"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-3-33">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="914.29413"
+       x="884.2572"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-97-79"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-36-86">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="823.15521"
+       x="789.37653"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-1-70"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-29-4">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="898.258"
+       x="764.78772"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-36-8"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-10-4">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="515.18073"
+       x="951.99762"
+       height="27.132807"
+       width="26.07925"
+       id="rect4127-89"
+       style="fill:#7e5cd8;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4125-31">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;purple&quot;,
+&quot;name&quot;:&quot;Purple X8&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="553.5058"
+       x="956.92053"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1832-48"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1830-96">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="497.92889"
+       x="878.7453"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1840-77"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1838-37">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="525.83386"
+       x="907.25281"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-0-1"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-62-22">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="563.35406"
+       x="910.2655"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-6-15"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-1-0">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="508.04443"
+       x="943.85834"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-8-9"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-7-04">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="527.15887"
+       x="997.96423"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-9-0"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-2-13">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="613.88318"
+       x="820.91431"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-02-74"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-3-1">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="602.12329"
+       x="962.29993"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-97-13"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-36-0">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="477.88281"
+       x="945.57599"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-1-32"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-29-17">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="607.61359"
+       x="878.64417"
+       height="4.33498"
+       width="4.1666546"
+       id="rect1828-36-5"
+       style="fill:#da7869;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-10-6">{&quot;component&quot;:&quot;Asteroid&quot;}</desc>
+    </rect>
+    <rect
+       y="880.65234"
+       x="899.65088"
+       height="27.132807"
+       width="26.07925"
+       id="rect4123-3"
+       style="fill:#e87a39;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4121-6">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;red&quot;,
+&quot;name&quot;:&quot;Red Z6&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="255.44328"
+       x="83.059486"
+       height="27.132807"
+       width="26.07925"
+       id="rect4123-4"
+       style="fill:#e87a39;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4121-7">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;red&quot;,
+&quot;name&quot;:&quot;Red Z3&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="58.249073"
+       x="906.19849"
+       height="27.132807"
+       width="26.07925"
+       id="rect4123-3-9"
+       style="fill:#e87a39;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4121-6-7">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;red&quot;,
+&quot;name&quot;:&quot;Red Z2&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="297.40182"
+       x="646.69836"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-2"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-2">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="574.8363"
+       x="779.74597"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-1"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-6">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="380.55658"
+       x="929.42456"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-3"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-0">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="106.14586"
+       x="391.18646"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-21"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-5">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="772.89587"
+       x="452.41861"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-6"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-50">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="765.3363"
+       x="938.49597"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-0"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-3">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="543.0863"
+       x="501.55551"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-4"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-66">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="929.37799"
+       x="254.3591"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-02"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-58">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="983.0506"
+       x="701.88293"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-9"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-506">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="741.14587"
+       x="872.72815"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-08"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-37">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="809.18158"
+       x="550.69244"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-8"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-21">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="610.36609"
+       x="112.996"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-05"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-8">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="474.29468"
+       x="364.72815"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-5"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-507">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="252.80061"
+       x="749.50793"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-38"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-23">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="199.88396"
+       x="466.02576"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-07"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-7">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="410.79468"
+       x="368.5079"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-7"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-69">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="154.52681"
+       x="783.52576"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-11"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-9">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="115.97324"
+       x="993.68054"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-089"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-88">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="78.175621"
+       x="275.52576"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-03"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-70">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="328.39587"
+       x="139.45433"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-69"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-217">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="651.1875"
+       x="469.04956"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-79"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-76">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="272.45538"
+       x="531.79364"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-27"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-1">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="174.18156"
+       x="269.47815"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-58"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-84">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="253.55656"
+       x="137.94243"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-56"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-56">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="345.22198"
+       x="754.95685"
+       height="27.132807"
+       width="26.07925"
+       id="rect4123-3-6"
+       style="fill:#e87a39;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4121-6-1">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;red&quot;,
+&quot;name&quot;:&quot;Red Z4&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="74.075485"
+       x="336.52649"
+       height="27.132807"
+       width="26.07925"
+       id="rect4123-4-4"
+       style="fill:#e87a39;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc4121-7-7">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;red&quot;,
+&quot;name&quot;:&quot;Red Z1&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="964.71429"
+       x="986.60938"
+       height="27.132807"
+       width="26.07925"
+       id="rect1828-31-9-6"
+       style="fill:#3776be;fill-opacity:1;stroke:none;stroke-width:0.144517;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1826-9-3-5">{&quot;component&quot;:&quot;Planet&quot;,
+&quot;properties&quot;:{
+&quot;type&quot;:&quot;blue&quot;,
+&quot;name&quot;:&quot;Mole-Home II&quot;,
+&quot;colonized&quot;:false
+}
+}</desc>
+    </rect>
+    <rect
+       y="748.70538"
+       x="692.81146"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-02-6"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-58-9">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="508.31253"
+       x="624.77576"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-02-3"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-58-7">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="358.63394"
+       x="88.805519"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-02-4"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-58-5">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="356.36609"
+       x="470.56146"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-02-2"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-58-54">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="425.15778"
+       x="853.82935"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-02-7"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-58-4">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="106.90181"
+       x="494.75195"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-02-43"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-58-0">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="25.258951"
+       x="171.96028"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-02-78"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-58-6">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="26.770861"
+       x="975.53766"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-02-8"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-58-8">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="960.37207"
+       x="557.49597"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-02-431"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-58-49">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
+    </rect>
+    <rect
+       y="832.61609"
+       x="233.94838"
+       height="2.3987639"
+       width="2.3056209"
+       id="rect1824-6-8-02-20"
+       style="fill:#ff0b0b;fill-opacity:1;stroke:none;stroke-width:0.0799686;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1822-0-58-58-68">{&quot;component&quot;:&quot;Asteroid&quot;,
+&quot;properties&quot;:{
+&quot;maxH2o&quot;:0,
+&quot;maxEnergy&quot;:5,
+&quot;maxVeloX&quot;:40,
+&quot;maxVeloY&quot;:40
+}}</desc>
     </rect>
   </g>
 </svg>
